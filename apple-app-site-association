@@ -3,11 +3,11 @@
         "apps": [],
         "details": [
             {
-                "appID": "M7LRTBJTWX.com.serviz.pro-app",
+                "appID": "M7LRTBJTWX.com.serviz.pro-app-dev",
                 "paths": [ "*" ]
             },
             {
-                "appID": "M7LRTBJTWX.com.serviz.pro-app-dev",
+                "appID": "M7LRTBJTWX.com.serviz.pro-app",
                 "paths": [ "*" ]
             }
         ]
