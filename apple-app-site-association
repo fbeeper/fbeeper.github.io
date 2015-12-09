@@ -3,11 +3,11 @@
         "apps": [],
         "details": [
             {
-                "appID": "EQHXZ8M8AV.com.google.ios.youtube.dev",
+                "appID": "M7LRTBJTWX.com.serviz.pro-app",
                 "paths": [ "*" ]
             },
             {
-                "appID": "4ANB9W7R3P.com.google.ios.youtube.enterprise",
+                "appID": "M7LRTBJTWX.com.serviz.pro-app-dev",
                 "paths": [ "*" ]
             }
         ]
