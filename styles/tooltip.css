@@ -1,0 +1,49 @@
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media screen and (min-width: 480px) {
+	.tooltip .tooltiptext {
+	    font-size: 1.5vw;
+	    width: 9vw;
+	    top: 105%;
+	    left: 50%; 
+	  padding-left:.5vw;
+	  padding-right:.5vw;
+	    margin-left: -5vw;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.tooltip .tooltiptext {
+	    font-size: 5vw;
+	    width: 30vw;
+	    top: 110%;
+	    left: 50%; 
+	  padding-left:.5vw;
+	  padding-right:.5vw;
+	    margin-left: -15vw;
+	}
+}

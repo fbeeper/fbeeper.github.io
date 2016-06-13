@@ -1,0 +1,23 @@
+body {
+	background: #252525;
+	font-family: 'Courier New', monospaced;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+.wrapper,.copyright {
+	padding: 5vw;
+	text-align: center;
+  width:300;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 2vw;
+	padding-left: 2vw;
+	margin-bottom: 2vw;
+	margin-top: 2vw;
+}
