@@ -24,7 +24,7 @@
     visibility: visible;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 700px) {
 	.tooltip .tooltiptext {
 	    font-size: 1.5vw;
 	    width: 9vw;
@@ -36,7 +36,7 @@
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
 	.tooltip .tooltiptext {
 	    font-size: 5vw;
 	    width: 30vw;
