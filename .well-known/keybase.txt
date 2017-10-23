@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/fbeeper
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.fbeeper.com
+  * I am fbeeper (https://keybase.io/fbeeper) on keybase.
+  * I have a public key with fingerprint ACB5 F229 B5EA 1A4F 77A5  9FE4 84B6 0480 8B33 8A88
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01011e2a08b1e5916b421da068096bd5625d5577ee4bf5bfca09dced2b24e9d0a3470a",
+      "fingerprint": "acb5f229b5ea1a4f77a59fe484b604808b338a88",
+      "host": "keybase.io",
+      "key_id": "84b604808b338a88",
+      "kid": "01011e2a08b1e5916b421da068096bd5625d5577ee4bf5bfca09dced2b24e9d0a3470a",
+      "uid": "9d6084e92b53cdb9a884db5ac12cf900",
+      "username": "fbeeper"
+    },
+    "service": {
+      "hostname": "www.fbeeper.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1508784435,
+  "expire_in": 157680000,
+  "prev": "6151a92983916f27596df534b49077cc1bb40bf1299da9aec01cca97c57494f7",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJdSBRRFN610tolExSEUqGpFElk7szcmbmLRVC+FJL4UkGw3Hvnjg5r
+M9vsuLqoIVQShWBBi9EfFfZQZGJIBWElC0lZRD8E/QglVNKfEUkRaXcWe+ux+3K5
+53zfd75z7sksXRAIBc8O3zlF8MSP4L3bx1oCOz4juV0gjpESIu1CjGUv1mywhBeN
+WYYQEUQgAsAkLOoEMIiAShQJGFhUdRGpxICqBA0INY0xhZiQmBSLyKDMkIikMGSI
+WFY0EQtVgmnZjcyNu5btcVlMCTQlCRHIMMCKqWkYIpMpukJUUdF5NVnWsa5zYpOT
+8BncHMEJVm05PMYf0ay9f+D/s++WrBwyVFHnCYlAmRoE8VKKQSCmQKImEkUfmGCu
+jXcxjjYJY3HmCp1VAg8mLcr8ufqNzANaW1ur50HV1NnF2XHX8RzqNPNkk+fFIz7X
+S8WzYEai8zJRYtkGHyQnJJmbsBxbiACOpJ7l6wIo6pquKDKsElhb3HJZ1PIRUONt
+8+OXYUkuqQIIMJKQLvPJmJIGkWqYUFaIgkRNoxQQoojEBBJCBkaYURFQipFGoaYg
+/luC39hu2/G1uU/cyDUTVqONvRaXCZ2jt3YuDARDgdxFOf6GBUJLCv7unSnnzTWe
+mW2YAl5R5trATKLkQW98w9Wh/uHLz55X9MfXVDZUfF1cnglX3n23YmNuU+X2fbOh
+74NLFw7k7D04NK31gp764pMvaqO1fVMXvl8aKS6h58baRjNFsRdnK/YMr0wfrp2M
+TSg5gx8G1s6Vv+04nJxdV1NOX18/kw9CNWPSlm56Y9WrU+HJN0JZKRhMXxmxusI9
+D+/XXaw7caQ9OPUzb+Zj8Y7074lIweP3gUx9wZ3xte/yxi8fH62fnKYp7G162H3T
+PnA0OQMbSvJfbuzsC3/a//SJtnrb20jkSVlXU9/0ismt32JfUo/WD9UVLv9VehqU
+hzc/FTqk8+PThYeW5abtP2UWQuA=
+=4BNQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fbeeper
+
+==================================================================
