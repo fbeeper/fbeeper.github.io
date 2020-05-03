@@ -1,0 +1,34 @@
+plugins:
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-gist
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: pretty
+
+title: fbeeper
+tagline: 'Ferran Poveda'
+description: 'Containing my entropy with some candid thoughts.'
+url: https://fbeeper.github.io
+baseurl: /
+repository: fbeeper/fbeeper.github.io
+
+author:
+  name: 'Ferran Poveda'
+  url: https://fbeeper.github.io
+  twitter: fbeeper
+
+paginate: 3
+
+excerpt_separator: <!--more-->
+decoration: pentagon
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+github:
+  repo: https://github.com/fbeeper/fbeeper.github.io

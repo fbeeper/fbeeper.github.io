@@ -1,0 +1,53 @@
+/*
+ * Color variables for theming my modified versions of Poole/Hyde.
+ */
+
+:root {
+  color-scheme: light dark;
+
+  --base-bg-color: #F9F9F9;
+  --base-fg-color: #515151;
+  --base-fg-emph-color: #313131;
+  --base-fg-deemph-color: #737373;
+  --base-link-fg-color: #1A75C9;
+
+  --sidebar-bg-color: #F9F9F9;
+  --sidebar-fg-color: #515151;
+  --sidebar-link-fg-color: #313131;
+
+  --base-separator-fg-color: #D2D2D2; /*E5E5E5 ?*/
+
+  --table-border-color: #E5E5E5;
+  --table-odd-bg-color: #FFFFFF;
+
+  --pref-inline-fg-color: #515151; /*BF4E59*/
+  --pref-inline-bg-color: #FFFFFF;
+
+  --message-fg-color: #767676;
+  --message-bg-color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base-bg-color: #212121;
+    --base-fg-color: #D5D5D5;
+    --base-fg-emph-color: #FFFFFF;
+    --base-fg-deemph-color: #909090;
+    --base-link-fg-color: #1A9EF6;
+
+    --sidebar-bg-color: #212121;
+    --sidebar-fg-color: #D5D5D5;
+    --sidebar-link-fg-color: #FFFFFF;
+
+    --base-separator-fg-color: #454545; /*E5E5E5 ?*/
+
+    --table-border-color: #454545;
+    --table-odd-bg-color: #1A1A1A;
+
+    --pref-inline-fg-color: #D5D5D5; /*D95865*/
+    --pref-inline-bg-color: #1A1A1A;
+
+    --message-fg-color: #909090;
+    --message-bg-color: #121212;
+  }
+}

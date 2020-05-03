@@ -1,0 +1,127 @@
+/* 
+ * Bauhausish decorative elements.
+ */
+
+:root {
+  --decor-square-color:   #FE665B; /* Red */
+  --decor-triangle-color: #FBE05A; /* Yellow */
+  --decor-circle-color:   #51B3F5; /* Blue */
+  --decor-pentagon-color: #FDA35B; /* Orange */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --decor-square-color:   #962115; /* Red */
+    --decor-triangle-color: #8C7400; /* Yellow */
+    --decor-circle-color:   #00548A; /* Blue */
+    --decor-pentagon-color: #914B0B; /* Orange */
+  }
+}
+
+.decorative-header {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/*
+ * SQUARE 
+ */
+
+.square {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  height: 40px;
+  width: 40px;
+  background-color: var(--decor-square-color);
+  z-index: -1;
+}
+@media (min-width: 38em) {
+  .square {
+    top: -25px;
+    left: -25px;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/*
+ * TRIANGLE 
+ */
+
+.triangle {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid var(--decor-triangle-color);
+  z-index: -1;
+}
+@media (min-width: 38em) {
+  .triangle {
+    top: -30px;
+    left: -30px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid var(--decor-triangle-color);
+  }
+}
+
+/*
+ * CICLE 
+ */
+
+.circle {
+  position: absolute;
+  top: -22px;
+  left: -22px;
+  height: 45px;
+  width: 45px;
+  background-color: var(--decor-circle-color);
+  border-radius: 50%;
+  z-index: -1;
+}
+@media (min-width: 38em) {
+  .circle {
+    top: -27px;
+    left: -27px;
+    height: 55px;
+    width: 55px;
+  }
+}
+
+/*
+ * PENTAGON
+ */
+.pentagon {
+  position: absolute;
+  top: -15px;
+  left: -45px;
+  width: 54px;
+  box-sizing: content-box;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: var(--decor-pentagon-color) transparent;
+  transform: scale(.5);
+  z-index: -1;
+}
+.pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent var(--decor-pentagon-color);
+}
+@media (min-width: 38em) {
+  .pentagon {
+    transform: scale(.70);
+  }
+}

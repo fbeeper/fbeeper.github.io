@@ -1,62 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+---
+layout: default
+title: Home
+---
 
-<head>
+<!-- <div> -->
+  {% for post in paginator.posts %}
+  <div class="post">
+    <div class="decorative-header">
+      <div class="{{ post.decoration }}"></div>
+      <h1 class="post-title">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+      <span class="post-date">On {{ post.date | date_to_string: "ordinal", "US" }} ~ {% include time.html contentToTime=post.content %}</span>
+    </div>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>fbeeper</title>
-<meta name="robots" content="index, follow" />
-<meta name="description" content="Ferran Poveda" />
+    {{ post.excerpt | strip_html }}
+    <a href="{{ post.url }}">Continue…</a>
+  </div>
+  {% endfor %}
+<!-- </div> -->
 
-<link rel="stylesheet" href="styles/base.css" />
-<link rel="stylesheet" href="styles/socialIcons.css" />
-<link rel="stylesheet" href="styles/socialColors.css" />
-<link rel="stylesheet" href="styles/tooltip.css" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-<link type="text/plain" rel="author" href="humans.txt" />
-
-</head>
-
-<body>
-
-<div class="wrapper">
-  <ul class="social-icons icon-rounded list-unstyled list-inline">
-    
-    <li class="tooltip"><span class="tooltiptext">Email me!</span><a href="http://scr.im/fbeeper"><i class="fa fa-envelope-o"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Tweet me!</span><a href="https://twitter.com/fbeeper"><i class="fa fa-twitter"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Call me!</span><a href="skype:fbeeper?call"><i class="fa fa-skype"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">See what I did!</span><a href="http://linkedin.com/in/fpabanses"><i class="fa fa-linkedin"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Stalk me!</span><a href="http://facebook.com/fbeeper"><i class="fa fa-facebook"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Not enough?</span><a href="https://plus.google.com/+FerranPoveda"><i class="fa fa-google-plus"></i></a></li>
-
-    <li class="tooltip"><span class="tooltiptext">Tumblr</span><a href="http://fantasticdesignbeeper.tumblr.com/"><i class="fa fa-tumblr"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Instagram</span><a href="http://instagram.com/fbeeper"><i class="fa fa-instagram"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Youtube</span><a href="http://www.youtube.com/fbeeper"><i class="fa fa-youtube"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">BTW, get my stickers!</span><a href="https://www.stickermule.com/user/1070636856/stickers"><i class="fa fa-sticky-note-o"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">IMDB ratings</span><a href="http://www.imdb.com/user/ur36681407"><i class="fa fa-ticket"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Spotify</span><a href="https://open.spotify.com/user/fbeeper"><i class="fa fa-spotify"></i></a></li>
-    
-    <li class="tooltip"><span class="tooltiptext">My iOS blog</span><a href="https://medium.com/@imho_ios"><i class="fa fa-medium"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">My iOS alter ego</span><a href="https://twitter.com/imho_ios"><i class="fa fa-twitter"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Github</span><a href="http://github.com/fbeeper"><i class="fa fa-github"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Gists</span><a href="https://gist.github.com/fbeeper"><i class="fa fa-github-alt"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Stack Overflow</span><a href="http://stackoverflow.com/users/1576402/fbeeper"><i class="fa fa-stack-overflow"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">News YC</span><a href="https://news.ycombinator.com/user?id=fbeeper"><i class="fa fa-y-combinator"></i></a></li>
-
-    <li class="tooltip"><span class="tooltiptext">App Store</span><a href="https://itunes.apple.com/us/developer/fernando-poveda/id928901258"><i class="fa fa-apple"></i></a> </li>
-    <li class="tooltip"><span class="tooltiptext">Keybase</span><a href="https://keybase.io/fbeeper"><i class="fa fa-lock"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Coinbase</span><a href="https://www.coinbase.com/fbeeper"><i class="fa fa-bitcoin"></i></a> </li>
-    <li class="tooltip"><span class="tooltiptext">Research Gate</span><a href="https://www.researchgate.net/profile/Ferran_Poveda"><i class="fa fa-flask"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Scholar Citations</span><a href="http://scholar.google.es/citations?user=XwLGeDcAAAAJ"><i class="fa fa-graduation-cap"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Slide Share</span><a href="http://www.slideshare.net/FerranPoveda"><i class="fa fa-slideshare"></i></a></li>
-    
-    <li class="tooltip"><span class="tooltiptext">My Workplace</span><a href="https://itunes.apple.com/us/app/serviz/id910258133?mt=8"><i class="fa fa-pied-piper"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Pocket</span><a href="http://getpocket.com/users/fbeeper"><i class="fa fa-get-pocket"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Dribbble</span><a href="http://dribbble.com/fbeeper"><i class="fa fa-dribbble"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Amazon</span><a href="http://amzn.com/w/3LPSU9V1T3GAI"><i class="fa fa-amazon"></i></a> </li>
-    <li class="tooltip"><span class="tooltiptext">Foursquare</span><a href="https://foursquare.com/user/1630362"><i class="fa fa-foursquare"></i></a></li>
-    <li class="tooltip"><span class="tooltiptext">Steam</span><a href="http://steamcommunity.com/id/fbeeper"><i class="fa fa-steam"></i></a></li>
-    
-  </ul>
-</div>
-
-</body>
+{% include pagination.html %}

@@ -1,0 +1,71 @@
+/*
+ * Additions/modifications over Poole.
+ */
+
+.related-posts li {
+  padding: 4px; /*ensure acc*/
+}
+
+.pagination {
+  position: relative;
+  color: var(--base-fg-deemph-color);
+  padding-top: 50px;
+  /*border-top: 1px solid var(--base-separator-fg-color);*/
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.pagination-older {
+  float: left;
+}
+
+.pagination-newer {
+  float: right;
+}
+
+@media (hover: none) {
+  .post abbr {
+    border-bottom: none;
+    cursor: default;
+    font-weight: normal;
+  }
+  abbr[title]:first-of-type::after {
+    content: ' ('attr(title)')';
+  }
+}
+
+.highlight {
+	font-size: 14px;
+}
+
+.highlight pre {
+	overflow-x: auto; 
+    word-wrap: normal;
+}
+
+.highlight pre code {
+    white-space: pre;
+}
+
+/*
+ * Additions/modifications over Hyde.
+ */
+
+.sidebar-social-links {
+  display: block;
+  font-size: 2rem;
+}
+
+#sidebar-license {
+  display: block;
+  padding-top: 1rem;
+  color: var(--base-fg-deemph-color);
+}
+
+/*
+ * Other
+ */
+
+.share-actions {
+	float: right;
+}

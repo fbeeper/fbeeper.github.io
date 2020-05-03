@@ -1,0 +1,10 @@
+{% if include.contentToTime %}
+	{% assign words = include.contentToTime | number_of_words %}
+	{% if words < 360 %}
+	  1 min read
+	{% else %}
+	  {{ words | divided_by:180 }} min read
+	{% endif %}
+{% else %}
+	Time is just a social construct.
+{% endif %}
