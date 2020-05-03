@@ -14,7 +14,7 @@ title: fbeeper
 tagline: 'Ferran Poveda'
 description: 'Containing my entropy with some candid thoughts.'
 url: https://fbeeper.github.io
-baseurl: /
+baseurl: https://fbeeper.github.io/
 repository: fbeeper/fbeeper.github.io
 
 author:
