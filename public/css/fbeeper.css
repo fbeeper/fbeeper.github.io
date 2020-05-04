@@ -69,3 +69,7 @@
 .share-actions {
 	float: right;
 }
+
+.large {
+  font-size: 2rem;
+}
