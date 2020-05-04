@@ -12,7 +12,7 @@ I'm a victim of my omnivorous curiosity. This site is about some of my favorite 
 
 Connect with me:
 
-* [Twitter](https://twitter.com/fbeeper)
+* [Twitter](https://twitter.com/fbeeper) (my DMs are open!)
 * [Github](http://github.com/fbeeper)
 * [LinkedIn](http://linkedin.com/in/fpabanses)
 

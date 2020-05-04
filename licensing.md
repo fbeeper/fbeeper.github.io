@@ -14,7 +14,7 @@ decoration: pentagon
 
 <span class="large"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i> <i class="fab fa-creative-commons-sa"></i> +</span>
 
-Unless otherwise noted, the content of this site is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). To obtain permissions beyond the scope of this license, my DM's are open: @fbeeper.
+Unless otherwise noted, the content of this site is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). To obtain permissions beyond the scope of this license, my DMs are open: @fbeeper.
 
 
 ## Code
