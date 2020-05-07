@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ "/" | relative_url }}">
           {{ site.title }}
         </a>
       </h1>
@@ -10,7 +10,8 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      url: {{ page.url }}
+      <a class="sidebar-nav-item{% if page.url == "/" %} active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -30,9 +31,9 @@
     <span class="sidebar-social-links">
       <a href="http://twitter.com/fbeeper" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
       <a href="http://github.com/fbeeper"aria-label="Github"><i class="fab fa-github-square"></i></a>
-      <a href="{{ site.baseurl }}feed.xml" aria-label="Feed"><i class="fas fa-rss-square"></i></a>
+      <a href="{{ "/" | relative_url }}feed.xml" aria-label="Feed"><i class="fas fa-rss-square"></i></a>
     </span>
 
-    <a id="sidebar-license" href="{{ site.baseurl }}licensing/"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i> <i class="fab fa-creative-commons-sa"></i> +</a>
+    <a id="sidebar-license" href="{{ "/" | relative_url }}licensing/"><i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i> <i class="fab fa-creative-commons-nc"></i> <i class="fab fa-creative-commons-sa"></i> +</a>
   </div>
 </div>

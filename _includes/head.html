@@ -15,12 +15,12 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/theme.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/fbeeper.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/hyde.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/decorative.css">
+  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/theme.css">
+  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/fbeeper.css">
+  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/poole.css">
+  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/syntax.css">
+  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/hyde.css">
+  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/decorative.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,400italic,700|Source+Code+Pro:400">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 
@@ -38,12 +38,12 @@
     <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% else %}
     <meta name="twitter:card"  content="summary">
-    <meta name="twitter:image" content="{{ site.baseurl }}public/apple-touch-icon.png">
+    <meta name="twitter:image" content="{{ "/" | relative_url }}public/apple-touch-icon.png">
   {% endif %}
 
   <!-- Icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}public/apple-touch-icon.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/" | relative_url }}public/apple-touch-icon.png">
+  <link rel="shortcut icon" href="{{ "/" | relative_url }}public/favicon.ico">
 
   <!-- RSS -->
   {% feed_meta %}
