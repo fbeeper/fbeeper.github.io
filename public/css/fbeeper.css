@@ -73,3 +73,10 @@
 .large {
   font-size: 2rem;
 }
+
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: -10px;
+  color: var(--base-fg-deemph-color);
+}
