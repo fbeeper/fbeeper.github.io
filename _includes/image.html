@@ -1,0 +1,17 @@
+{% if include.caption %}
+<div role="figure" aria-labelledby="caption">
+{% endif %}
+
+{% if include.retinaSrc %}
+<img src="{{ include.src }}" 
+     srcset="{{ include.src }} 1x, {{include.retinaSrc}} 2x" 
+     alt="{{ include.alt }}" 
+     title="{{ include.caption | strip_html }}"/>
+{% else %}
+<img src="{{ include.src }}" alt="{{ include.alt }}"/>
+{% endif %}
+
+{% if include.caption %}
+<p id="caption" class="image-caption"><em>{{ include.caption }}</em></p>
+</div>
+{% endif %}
