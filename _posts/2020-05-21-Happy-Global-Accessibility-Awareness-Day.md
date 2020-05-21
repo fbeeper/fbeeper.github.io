@@ -70,7 +70,7 @@ Thankfully, as a developer, I believe this dichotomy between fascinating and com
 
 I will never be able to fully understand or represent people with consequential accessibility needs that are different than mine. But I stopped feeling bad for being late. Instead, I focused on doing my best to include everyone. I work hard to make my apps as accessible as possible and, honestly, it’s become one of my favorite parts of this work.
 
-Want to share your experience or are looking for guidance? Let’s chat here or reach me @fbeeper. 
+Want to share your experience or are looking for guidance? Let’s chat [here](https://github.com/fbeeper/fbeeper.github.io/issues/4) or reach me @fbeeper.
 
 And see you in my next article talking about competing priorities!
 
