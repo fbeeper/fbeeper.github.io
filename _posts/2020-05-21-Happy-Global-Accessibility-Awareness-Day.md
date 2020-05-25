@@ -72,7 +72,7 @@ I will never be able to fully understand or represent people with consequential 
 
 Want to share your experience or are looking for guidance? Let’s chat [here](https://github.com/fbeeper/fbeeper.github.io/issues/4) or reach me @fbeeper.
 
-And see you in my next article talking about competing priorities!
+See you in my [next article on accessibility & competing priorities](/accessibility/2020/05/25/Accessibility-Competing-Priorities/)!
 
 ---
 
