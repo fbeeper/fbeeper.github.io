@@ -8,7 +8,7 @@ permalink: accessibility/2020/06/11/Accessibility-Audit-VoiceOver-101/
 tags: [accessibility, iOS, VoiceOver]
 ---
 
-Anyone, regardless their knowledge, can quickly get started and audit very important aspects of accessibility in an iOS app. Let me start with VoiceOver.
+Anyone, regardless their knowledge, can quickly get started (and even audit accessibility) with VoiceOver.
 
 ## VoiceOver
 
