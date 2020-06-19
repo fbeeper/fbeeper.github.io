@@ -60,7 +60,7 @@ If we cannot use it, it is likely our users won't be able to use it either.
 
 Using VoiceOver, we can learn some of the most fundamental concepts of accessibility. And we can also start exposing where we need to improve our apps.
 
-With the four (4!) simple gestures in this article I have identified some of the most foundational accessibility issues in iOS apps. And I hope you can too.
+With the four (4!) simple gestures in this article I have identified some of the most foundational accessibility issues in iOS apps. I hope you can too.
 
 **I look to validate that all UI elements are reachable and properly described.** In other words, I note all the things I cannot navigate consistently, as well as those that are not clearly described with the VoiceOver reading.
 
@@ -68,7 +68,7 @@ With the four (4!) simple gestures in this article I have identified some of the
 
 Answering questions like this certainly helps to lay out a roadmap. While it may look over-simplistic, the results of this self-auditing can be a strong foundation towards making an app accessible.
 
-Speak soon!
+Want more? The story continues in [VoiceOver 102](/accessibility/2020/06/18/VoiceOver-102-Common-Gestures/).
 
 <div class="message">
 ✍️ Edited on June 15th, 2020 with minor refinements.
