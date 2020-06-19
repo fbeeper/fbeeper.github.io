@@ -1,14 +1,14 @@
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-older" href="{{ site.baseurl }}page{{paginator.next_page}}">&lt; Older</a>
+    <a class="pagination-older" href="/page{{paginator.next_page}}">&lt; Older</a>
   {% else %}
     <span class="pagination-older">&lt; Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-newer" href="{{ site.baseurl }}">Newer &gt;</a>
+      <a class="pagination-newer" href="/">Newer &gt;</a>
     {% else %}
-      <a class="pagination-newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer &gt;</a>
+      <a class="pagination-newer" href="/page{{paginator.previous_page}}">Newer &gt;</a>
     {% endif %}
   {% else %}
     <span class="pagination-newer">Newer &gt;</span>
