@@ -29,7 +29,8 @@ decoration: pentagon
     Nothing to see here just yet!
   {% else %}
     <div class="posts">
-    {% for post in filteredPosts limit: 3 %}
+    {% assign limitPosts = page.limit | default: 3 %}
+    {% for post in filteredPosts limit: limitPosts %}
       <div class="post">
         <h2 class="post-title">
           <a href="{{ post.url }}">
