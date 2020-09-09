@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem 'github-pages', '204', group: :jekyll_plugins
-gem "jekyll", "~> 3.8.5"
+gem 'github-pages', '207', group: :jekyll_plugins
+gem "jekyll", "~> 3.9.0"
 
 group :jekyll_plugins do
 	gem "jekyll-gist", '~> 1.5.0'
