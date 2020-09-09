@@ -19,8 +19,6 @@ If we go to "Settings" → "Accessibility" → "Accessibility Shortcut," we can 
 
 With this setting, **triple tapping** the home or side button (depending on the device) will toggle VoiceOver. So convenient! Right?
 
-Now, let's go back to interacting with our apps.
-
 ## Continuous Swipe (and Tap)
 
 Sooner or later, one may discover naturally (or accidentally 😅) that a **single tap** on the screen moves the focus to the accessible element touched.
@@ -41,7 +39,7 @@ That easy!
 
 With the gestures we learned so far, going back on navigation or dismissing a modal may be a hassle. 
 
-**Swiping a Z shape with two fingers** anywhere on the screen will solve it. This gesture will perform those actions, and it will save us a lot of time. And it will rescue us when feeling trapped too.
+**Swiping a Z shape with two fingers** anywhere on the screen will solve it. This gesture will perform those actions, and it will save us a lot of time. And it will often rescue us when feeling trapped too.
 
 <div class="message">
 ℹ️ The direction (or shape) of this Z does not matter! It is only necessary to go back and forth thrice. But, while getting used to VoiceOver, remembering the Zorro can be a fun mnemotechnic technique.
