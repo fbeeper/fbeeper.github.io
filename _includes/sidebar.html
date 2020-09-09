@@ -6,6 +6,9 @@
           {{ site.title }}
         </a>
       </h1>
+      {% if jekyll.environment == "dev" %}
+        <p class="lead" style="color: red">Development</p>
+      {% endif %}
       <p class="lead">{{ site.description }}</p>
     </div>
 
