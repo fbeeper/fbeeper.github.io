@@ -52,7 +52,3 @@ Shifting gears to design and accessibility, these were highly valuable:
 * [Supporting Dark Mode in Your Web Content](https://developer.apple.com/videos/play/wwdc2019/511/) from Apple's WWDC, showed me how to support dark mode and also exposed me to CSS variables.
 
 I may come back with more details in the future, so... stay tuned!
-
---
-
-**✍︎ Sunday, May 10, 2020:** Now you can [leave a comment here](https://github.com/fbeeper/fbeeper.github.io/issues/2) if you want!
