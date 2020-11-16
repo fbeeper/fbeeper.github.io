@@ -26,20 +26,19 @@ Ferran Poveda grew up in a small town near Barcelona. After pursuing his Bachelo
 <br>
 <hr>
 
-## Other Digital Presence
+## Other
 
-* [Gists](https://gist.github.com/fbeeper)
-* [Keybase](https://keybase.io/fbeeper)
-* [Instagram](http://instagram.com/fbeeper)
-* [IMDB](http://www.imdb.com/user/ur36681407)
-* [Research Gate](https://www.researchgate.net/profile/Ferran_Poveda)
-* [Facebook](http://facebook.com/fbeeper)
-* [Tumblr](http://fantasticdesignbeeper.tumblr.com/)
-* [Youtube](http://www.youtube.com/fbeeper)
-* [Spotify](https://open.spotify.com/user/fbeeper)
-* [News YC](https://news.ycombinator.com/user?id=fbeeper)
 * [App Store](https://itunes.apple.com/us/developer/fernando-poveda/id928901258)
-* [Coinbase](https://www.coinbase.com/fbeeper)
+* [Gists](https://gist.github.com/fbeeper)
+* [Google Scholar](https://scholar.google.es/citations?user=XwLGeDcAAAAJ)
+* [IMDB](https://www.imdb.com/user/ur36681407)
+* [Keybase](https://keybase.io/fbeeper)
+* [Research Gate](https://www.researchgate.net/profile/Ferran_Poveda)
+* [Youtube](http://www.youtube.com/fbeeper)
+* [Facebook](http://facebook.com/fbeeper)
+* [Instagram](http://instagram.com/fbeeper)
+* [News YC](https://news.ycombinator.com/user?id=fbeeper)
 * [Slide Share](http://www.slideshare.net/FerranPoveda)
-* [Foursquare](https://foursquare.com/user/1630362)
+* [Spotify](https://open.spotify.com/user/fbeeper)
 * [Steam](http://steamcommunity.com/id/fbeeper)
+* [Tumblr](http://fantasticdesignbeeper.tumblr.com/)
