@@ -4,6 +4,7 @@ title: Refactoring Content
 categories: Blogging
 excerpt: Improving content as I go.
 decoration: triangle
+date: 2020-11-15 11:19:00
 tags: [blog, social media, refactoring]
 ---
 
