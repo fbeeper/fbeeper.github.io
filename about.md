@@ -12,7 +12,7 @@ I'm a victim of my omnivorous curiosity. This site is about some of my favorite 
 
 Connect with me:
 
-* [Twitter](https://twitter.com/fbeeper) (my DMs are open!)
+* [Mastodon] (https://mastodon.social/@fbeeper)
 * [Github](http://github.com/fbeeper)
 * [LinkedIn](http://linkedin.com/in/fpabanses)
 
@@ -28,6 +28,7 @@ Ferran Poveda grew up in a small town near Barcelona. After pursuing his Bachelo
 
 ## Other
 
+* [Twitter](https://twitter.com/fbeeper)
 * [App Store](https://itunes.apple.com/us/developer/fernando-poveda/id928901258)
 * [Gists](https://gist.github.com/fbeeper)
 * [Google Scholar](https://scholar.google.es/citations?user=XwLGeDcAAAAJ)
