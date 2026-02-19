@@ -5,5 +5,5 @@ limit: 30
 decoration: pentagon
 ---
 
-Here's a colletion of my latest accessibility articles:
+Here's a collection of my latest accessibility articles:
 

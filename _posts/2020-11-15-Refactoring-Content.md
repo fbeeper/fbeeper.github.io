@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Refactoring Content
-categories: Blogging
+categories: blogging
 hidden: true
 excerpt: Improving content as I go.
 decoration: triangle
