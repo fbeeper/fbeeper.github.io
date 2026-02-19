@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our Little Computer History Museum at Home
-categories: CompHist
+categories: comphist
 hidden: true
 excerpt: Join us on a journey through computer history!
 decoration: circle
