@@ -2,6 +2,7 @@
 layout: post
 title: Our Little Computer History Museum at Home
 categories: CompHist
+hidden: true
 excerpt: Join us on a journey through computer history!
 decoration: circle
 date: 2020-11-15 12:59:00

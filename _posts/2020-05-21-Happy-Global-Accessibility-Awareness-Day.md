@@ -2,6 +2,7 @@
 layout: post
 title: Happy Global Accessibility Awareness Day
 categories: accessibility
+hidden: true
 excerpt: Starting a new journey by sharing my experience on accessibility.
 decoration: square
 tags: [accessibility, iOS, design]

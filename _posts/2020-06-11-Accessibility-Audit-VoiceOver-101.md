@@ -2,6 +2,7 @@
 layout: post
 title: "VoiceOver 101: Basic Use & Audit"
 categories: accessibility
+hidden: true
 excerpt: The most basic audit may be the most powerful one.
 decoration: circle
 permalink: accessibility/2020/06/11/Accessibility-Audit-VoiceOver-101/

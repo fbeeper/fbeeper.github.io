@@ -2,6 +2,7 @@
 layout: post
 title: "VoiceOver 102: Common Gestures"
 categories: accessibility
+hidden: true
 excerpt: Becoming a fluid user in VoiceOver is just a few gestures away.
 decoration: square
 tags: [accessibility, iOS, VoiceOver]

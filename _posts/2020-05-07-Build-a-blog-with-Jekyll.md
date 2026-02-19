@@ -2,6 +2,7 @@
 layout: post
 title: Build a blog with Jekyll
 categories: development
+hidden: true
 excerpt: What made this site possible?
 decoration: triangle
 tags: [jekyll, github, web]

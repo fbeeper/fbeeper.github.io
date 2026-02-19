@@ -2,6 +2,7 @@
 layout: post
 title: Accessibility & Competing Priorities
 categories: accessibility
+hidden: true
 excerpt: Accessibility is easier to include in your workflow than it looks.
 decoration: triangle
 tags: [accessibility, iOS, design]
