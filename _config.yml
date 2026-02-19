@@ -13,7 +13,6 @@ permalink: pretty
 
 title: fbeeper
 tagline: 'Ferran Poveda'
-description: 'Containing the entropy of my thoughts and interests'
 url: https://www.fbeeper.com
 baseurl: ""
 repository: fbeeper/fbeeper.github.io

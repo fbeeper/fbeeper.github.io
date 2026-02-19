@@ -2,6 +2,7 @@
 layout: post
 title: Dark Mode Bauhaus
 categories: design
+hidden: true
 excerpt: A little story about my Bauhaus-inspired decorations in Dark Mode.
 decoration: circle
 tags: [design, dark mode]

@@ -2,6 +2,7 @@
 layout: post
 title: Refactoring Content
 categories: Blogging
+hidden: true
 excerpt: Improving content as I go.
 decoration: triangle
 date: 2020-11-15 11:19:00
