@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Who Owns the AI Agent Loop?
+title: "Who Owns the AI Agent Loop?"
 categories: dev
 excerpt: Presenting AgentKitten: a Swift package for building provider-agnostic AI agents on Apple platforms.
 decoration: triangle
-tags: [AI, agent, harness, agentkitten]
+permalink: agentkitten/2026/05/13/Who-Owns-the-AI-Agent-Loop/
+tags: [agentkitten, AI, agent, harness]
 ---
 
 **Who Owns the AI Agent Loop?** is not particularly a new question.
@@ -19,7 +20,7 @@ What's surprising is that for Swift and Apple platform developers, a solid versi
 
 ## The Agent - Harness Spectrum 
 
-*### Feel free to skip this section if you are already proficient in the concepts of Agents and Harnesses. ###*
+*(### Feel free to skip this section if you are already proficient in the concepts of Agents and Harnesses. ###)*
 
 There has been a popular definition doing its rounds for a while where *"Agent = Model + Harness"*. This captures something really useful. However, I think there is a more nuanced spectrum to grasp.
 
