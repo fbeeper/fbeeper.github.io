@@ -10,11 +10,13 @@ This is Ferran Poveda (aka fbeeper).
 
 I'm a software engineer/computer scientist from Barcelona.
 
-I previously worked at Apple on the tvOS System Experience team, contributing directly to UIKit (including bringing context menus to tvOS), system UI such as the Home Screen and Control Center, and core platform features in the system shell. I also integrated visionOS icon rendering support and refactored Parallax Previewer. Prior to Apple, I worked in Los Angeles developing iOS applications including SERVIZ and LIVESTRONG’s MyPlate Calorie Counter.
+I've recently been working independently on [AgentKitten](https://github.com/fbeeper/agentkitten), a Swift package for building provider-agnostic AI agents on Apple platforms.
 
-My academic background includes a [PhD in Computer Science](http://scholar.google.es/citations?user=XwLGeDcAAAAJ) focused on medical imaging, as well as MSc degrees in Computer Vision & Artificial Intelligence and Multimedia Technologies from the Universitat Autònoma de Barcelona. During this time, I taught Computer Graphics, created the School of Engineering’s first course in Computer History, and developed 3D facial scanning and morphing software for the university’s artist-in-residence.
+I previously worked at Apple on the tvOS System Experience team, contributing to UIKit, system UI such as the Home Screen and Control Center, and core platform features in the system shell. Prior to Apple, I worked in Los Angeles developing iOS applications including SERVIZ and LIVESTRONG’s MyPlate Calorie Counter.
 
-For family reasons, I’m now back in Barcelona and open to impactful new opportunities.
+My academic background includes a [PhD in Computer Science](http://scholar.google.es/citations?user=XwLGeDcAAAAJ) focused on medical imaging, as well as MSc degrees in Computer Vision & Artificial Intelligence and Multimedia Technologies from the Universitat Autònoma de Barcelona. During this time, I taught Computer Graphics, created the School of Engineering’s first course in Computer History.
+
+For family reasons, I’m now back **in Barcelona and open to impactful new opportunities**.
 
 Get in touch with me:
 
