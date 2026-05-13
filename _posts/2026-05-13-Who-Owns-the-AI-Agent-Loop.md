@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Who Owns the AI Agent Loop?"
-categories: dev
-excerpt: Presenting AgentKitten: a Swift package for building provider-agnostic AI agents on Apple platforms.
+categories: agentkitten
+excerpt: "Presenting AgentKitten: a Swift package for building provider-agnostic AI agents on Apple platforms."
 decoration: triangle
 permalink: agentkitten/2026/05/13/Who-Owns-the-AI-Agent-Loop/
 tags: [agentkitten, AI, agent, harness]
@@ -244,4 +244,8 @@ Just being honest, "I iterated on this a lot" is a more accurate description tha
 
 It's still early: the test coverage/quality is being improved, the provider surface will grow, and some API edges will shift before a 1.0. I'm very open to input and collaboration.
 
-The repository is at https://github.com/fbeeper/agentkitten. Run `swift run Playground --help` to see examples of what it can do. Looking forward for your input!
+The repository is at [https://github.com/fbeeper/agentkitten](https://github.com/fbeeper/agentkitten). 
+
+Run `swift run Playground --help` to see examples of what it can do.
+
+Looking forward for your input!
