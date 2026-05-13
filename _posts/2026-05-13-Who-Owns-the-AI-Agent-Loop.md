@@ -14,15 +14,20 @@ If you've been building features with LLMs over the last few years you've likely
 
 What's surprising is that for Swift and Apple platform developers, a solid version of the harness-building toolset doesn't seem to exist yet. Working on some exploratory features, I kept having to relearn and rebuild the same scaffolding every time I wanted to try a different provider. The kind of thing a framework exists to solve. And since a clean Swift abstraction of it didn't already exist, I built mine:
 
-**[AgentKitten](https://github.com/fbeeper/agentkitten): a Swift package for building provider-agnostic AI agents on Apple platforms.**
+**[AgentKitten](https://github.com/fbeeper/agentkitten)** <br/>
+**A Swift package for building provider-agnostic AI agents on Apple platforms.**
 
 ---
 
 ## The Agent - Harness Spectrum 
 
-*(### Feel free to skip this section if you are already proficient in the concepts of Agents and Harnesses. ###)*
+*### Feel free to skip this section if already proficient in Agents and Harnesses. ###*
 
-There has been a popular definition doing its rounds for a while where *"Agent = Model + Harness"*. This captures something really useful. However, I think there is a more nuanced spectrum to grasp.
+There has been a popular definition doing its rounds for a while:
+
+> *Agent = Model + Harness*
+
+This captures something really useful. However, I think there is a more nuanced spectrum to grasp.
 
 Early language models generated text. Then, models were trained to request tool execution: to say "call this function with these arguments" rather than just describing what should happen. That may be clearest split of responsibility between Agent and Harness. But harnesses went further, mostly compensating: managing memory the model couldn't maintain, adding validation loops for outputs it couldn't reliably verify, imposing step limits for when it may not be able to recognize it was stuck. And many of today's models have internalized much of that: planning, self-correction, knowing when a task is done. So the harness has shifted its responsibilities. 
 
