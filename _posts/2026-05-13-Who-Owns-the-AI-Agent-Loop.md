@@ -114,10 +114,10 @@ Let's explain this through an example: It is well known some agent patterns may 
 
 ```swift
   let planningOverrides = TurnOverrides(
-      availableTools: .include(["read_file", "list_directory"])
+      toolSelection: .including(["read_file", "list_directory"])
   )
-  let planTurn = try await session.send(task, turnOverrides: planningOverrides)
-  let executionTurn = try await session.send("Execute the plan.")
+  let planTurn = try await session.send(taskPrompt, turnOverrides: planningOverrides)
+  let executionTurn = try await session.send("Execute the plan.") // Base Agent and Tool Behavior
 ```
 
 Because models can be swapped per turn, planning can run on a faster model while execution runs on a more capable one, all within a shared session history. That orchestration logic belongs to the application, not the provider.
@@ -134,7 +134,7 @@ As of today, Apple Foundation Models have a smaller context window (4096 tokens)
   let behavior = AgentBehavior(
       systemPrompt: "You are a search assistant.",
       defaultAutomaticCompactionPolicy: .enabled(
-          trigger: .percentOfContextWindow(0.5)
+          trigger: .percentOfContextWindow(0.5) // When 50% full
       )
   )
 ```
@@ -181,17 +181,17 @@ Of course, this kind of privacy is only as good as your detection and replacemen
 
 ## The part that makes evaluation possible in AgentKitten
 
-Every `AgentSession` keeps a live `AgentTrace`: an append-only structured record of every event. Turn starts, tool calls with arguments, results, compaction events, validation outcomes, errors. Each entry carries a turn identifier, a monotonic timestamp, and a semantic kind.
+Every `AgentSession` keeps a live `AgentTrace`: An append-only structured record of every event. Turn starts/ends, resolved inference config, tool hook firings, compaction events, validation outcomes, errors. Each entry carries a turn identifier (aka invocation id), a monotonic timestamp, and a semantic kind.
 
 ```swift
   let entries = await session.trace.snapshot()
 
   for entry in entries {
       switch entry.kind {
-      case .toolCallStarted(let call):  // tool name, arguments
-      case .toolCallCompleted(let call, let outcome):  // result, hooks that ran
-      case .compactionApplied:  // what was summarised, what was preserved
-      case .turnCompleted(let status):  // completed, cancelled, or failed
+      case .turnStarted(let message): // ...
+      case .toolHookFired(let info): // ...
+      case .contextCompaction(let info): // ...
+      case .turnCompleted(let outcome): // ...
       // ...
       }
   }
