@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Our Little Computer History Museum at Home
+title: Our Little Computer History Museum
 categories: comphist
-hidden: true
-excerpt: Join us on a journey through computer history!
+excerpt: A craft project to artfully display tokens of computer history.
 decoration: circle
+permalink: comphist/2020/11/15/Our-Little-Computer-History-Museum-at-Home/
 date: 2020-11-15 12:59:00
 tags: [computer history, home, design]
 ---
@@ -23,10 +23,4 @@ My partner, Helena Vilaplana, was super excited about the collection but felt it
 
 {% include image.html src='/public/img/2020-11-15-CompHist/HomeCompHistCollection.jpg' caption='Welcome to our first computer history museum at home.<br>(All rights reserved © Ferran Poveda & Helena Vilaplana)' alt='Picture of a 3 (rows) x 6 (columns) arrangement of shadowbox frames on a white wall. Each shadowbox has a colorful background and a white frame. The background colors of each column are purple, blue, green, yellow, orange, and red. Colors vary in luminosity in each row, ranging from darker to lighter from top to bottom. Inside each shadowbox, one or more devices are suspended, centered in slightly different alignments.' %}
 
-<div class="message">
-I promise a better picture soon. 🤪
-</div>
-
 Each one of these shadowboxes was painted by hand, and the devices were affixed in different ways, with materials and processes carefully chosen to both preserve the pieces for posterity and to display them in an artistic and exciting way.
-
-We are in love with it :)

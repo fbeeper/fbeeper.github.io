@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Happy Global Accessibility Awareness Day
+title: Global Accessibility Awareness Day
 categories: accessibility
-hidden: true
 excerpt: Starting a new journey by sharing my experience on accessibility.
 decoration: square
+permalink: accessibility/2020/05/21/Happy-Global-Accessibility-Awareness-Day/
 tags: [accessibility, iOS, design]
 ---
 
